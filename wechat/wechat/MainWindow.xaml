@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <Grid Grid.Row ="0">
             <TextBlock>
-                <Label Content="wo"></Label>
+                <Label Name="username"></Label>
             </TextBlock>
         </Grid>
         <Grid Grid.Row="1">

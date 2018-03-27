@@ -20,9 +20,10 @@ namespace wechat
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public MainWindow(string usrname)
         {
             InitializeComponent();
+            username.Content = usrname;
         }
     }
 }
